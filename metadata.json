@@ -1,0 +1,7 @@
+{
+  "name": "AI-FIR Vision",
+  "description": "An AI-powered video analysis and FIR automation system. It accepts video uploads or live captures, uses AI to generate an event summary, maps events to relevant Indian Penal Code (IPC) sections, detects deepfakes, and produces an editable FIR draft.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
