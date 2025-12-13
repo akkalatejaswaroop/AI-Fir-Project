@@ -9,7 +9,6 @@ import { HistoryView } from './components/HistoryView';
 import { analyzeVideoAndGenerateReport } from './services/geminiService';
 import { type AnalysisResult, type FIRData, type AppState, AppStateEnum } from './types';
 import { VideoIcon } from './constants';
-
 const App: React.FC = () => {
   const [appState, setAppState] = useState<AppState>(AppStateEnum.IDLE);
   const [currentView, setCurrentView] = useState<'main' | 'history'>('main');
